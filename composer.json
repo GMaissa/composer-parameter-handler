@@ -1,5 +1,5 @@
 {
-    "name": "gmaissa/composer-parameter-handler",
+    "name": "gmaissa/composer-remove-parameter-handler",
     "description": "Provides Composer script to remove parameters files generated with incenteev/composer-parameter-handler package",
     "license": "MIT",
     "authors": [
