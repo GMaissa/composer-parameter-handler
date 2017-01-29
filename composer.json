@@ -1,0 +1,28 @@
+{
+    "name": "gmaissa/composer-parameter-handler",
+    "description": "Provides Composer script to remove parameters files generated with incenteev/composer-parameter-handler package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guillaume Maïssa",
+            "email": "pro.g@maissa.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GMaissa\\ComposerParameterHandler\\": "src/",
+            "GMaissa\\ComposerParameterHandler\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "incenteev/composer-parameter-handler": "^2.0",
+        "sensio/distribution-bundle": "^5.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.0",
+        "phpmd/phpmd": "^2.4",
+        "sebastian/phpcpd": "^2.0",
+        "phpunit/phpunit": "^5.7",
+        "composer/composer": "^1.3"
+    }
+}
