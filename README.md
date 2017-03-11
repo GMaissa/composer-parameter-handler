@@ -10,7 +10,7 @@ It provides a script, to be used in composer group of scripts.
 
 With composer :
 
-    php composer.phar require gmaissa/composer-parameter-handler
+    php composer.phar require gmaissa/composer-remove-parameter-handler
 
 You can than add the provided script to your composer.json scripts section :
 
@@ -19,12 +19,12 @@ You can than add the provided script to your composer.json scripts section :
         ...
         "post-install-cmd": [
             ...,
-            "GMaissa\\ParameterHandlerBundle\\Composer\\ScriptHandler::removeHandledFiles",
+            "GMaissa\\ComposerParameterHandler\\Composer\\ScriptHandler::removeHandledFiles",
             ...
         ],
         "post-update-cmd": [
             ...,
-            "GMaissa\\ParameterHandlerBundle\\Composer\\ScriptHandler::removeHandledFiles",
+            "GMaissa\\ComposerParameterHandler\\Composer\\ScriptHandler::removeHandledFiles",
             ...
         ]
     }
